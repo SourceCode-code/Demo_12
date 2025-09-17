@@ -1,0 +1,10 @@
+hello this is a demo change 
+
+
+echo "# Demo_12" >> README.md
+git init                                                                 -- this initalizes your repostiory 
+git add .                                                                  -- this command will add your files to the stagging area
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SourceCode-code/Demo_12.git
+git push -u origin main
