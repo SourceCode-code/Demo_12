@@ -13,5 +13,5 @@ git push -u origin main                                                         
 // now how to push the updates changes 
 
 git add .                           -- this command will add your files to the stagging area
-git commit -m "message"
-git push origin main
+git commit -m "message"             -- this command will make your files ready to show on github
+git push origin main                --this command will push your changes to github
