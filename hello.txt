@@ -4,7 +4,14 @@ hello this is a demo change
 echo "# Demo_12" >> README.md
 git init                                                                 -- this initalizes your repostiory 
 git add .                                                                  -- this command will add your files to the stagging area
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SourceCode-code/Demo_12.git
-git push -u origin main
+git commit -m "first commit"                                                -- this command will make your files ready to show on github
+git branch -M main                                                           -- this command creates a  main or master
+git remote add origin https://github.com/SourceCode-code/Demo_12.git           -- this commands bind your ;local with the github repo url
+git push -u origin main                                                         -- this command will push your changes to github
+
+
+// now how to push the updates changes 
+
+git add .                           -- this command will add your files to the stagging area
+git commit -m "message"
+git push origin main
